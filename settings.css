@@ -1,0 +1,46 @@
+ul { /* UL */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+  }
+li { /* LI */
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+li a { /* A */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24.5px 28px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition: 0.2s;
+  }
+li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #5465c4;
+  }
+  li:last-child {
+    border-right: none;
+  }
+body {
+   margin: 0;
+}
+
+.titleCard {
+    display: block;
+    margin: 10px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
